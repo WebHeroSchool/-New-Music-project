@@ -1,11 +1,11 @@
- body {
-    font-family: "HELVETICA, sans-srif";
+body {
+  font-family: HELVETICA, sans-serif;
 }
 
- .title {
-    font-family: Roboto;
+.title {
+  font-family: Roboto, sans-serif;
 }
 
- p {
-    font-family: "Arial, sans-srif";
+p {
+  font-family: Arial, sans-serif;
 }
