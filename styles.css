@@ -20,7 +20,8 @@ body {
   border: dashed 1px red;
 }
 
-.logo, .menu {
+.logo,
+.menu {
   display: inline-block;
   border: dashed 1px red;
 }
