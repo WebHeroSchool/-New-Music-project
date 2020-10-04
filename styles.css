@@ -79,6 +79,7 @@ body {
 
 .menu__item:last-child {
   margin-right: 0;
+  width: max-content;
 }
 
 .menu__item:hover {
