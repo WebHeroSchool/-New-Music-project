@@ -1,5 +1,5 @@
 .title {
-  font-family: Roboto, sans-serif;
+  font-family: 'robotomedium', sans-serif;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   position: relative;
   padding: 40px 0 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px PT_Serif, Arial, HELVETICA, sans-serif;
+  font: bold 24px/31px 'pt_serif', Arial, HELVETICA, sans-serif;
 }
 
 .logo__circle {
@@ -59,7 +59,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, HELVETICA, sans-serif;
+  font: 500 18px/21px 'robotomedium', arial, HELVETICA, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -103,9 +103,9 @@ body {
 }
 
 .main-content__title {
-  font-family: PT_Serif, Arial, sans-serif;
+  font-family: 'pt_serif', Arial, sans-serif;
 }
 
 p {
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'robotomedium', Arial, sans-serif;
 }
