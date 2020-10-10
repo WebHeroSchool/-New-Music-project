@@ -98,7 +98,7 @@ body {
 
 .menu__item:hover::after,
 .menu__item_active::after {
-  opacity: 1;
+  opacity: 0;
   width: 100%;
 }
 
