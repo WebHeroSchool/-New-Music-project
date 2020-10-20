@@ -114,7 +114,7 @@ body {
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 50px/65px 'pt_serif', Arial, HELVETICA, sans-serif;
+  font: bold 50px/65px 'pt_serif_bold', serif;
   color: #000;
 }
 
@@ -208,5 +208,49 @@ p {
 
   .main__button {
     font: 500 14px/16px 'robotomedium', Arial, HELVETICA, sans-serif;
+  }
+}
+
+@media (max-width: 1920px) {
+  .body {
+    height: 56.3vw;
+  }
+
+  .wrapper {
+    width: 79.5vw;
+    height: 56.3vw;
+  }
+
+  .header {
+    margin-bottom: 11.5vw;
+  }
+
+  .logo {
+    margin-right: 49.6vw;
+    padding: 2.1vw 0 2vw 0;
+    padding-left: 2.2vw;
+    font: bold 1.4vw/1.6vw 'pt_serif', Arial, HELVETICA, sans-serif;
+  }
+
+  .menu__item {
+    margin-right: 1.3vw;
+    margin-top: 0.3vw;
+    font: 500 1vw/1vw 'robotomedium', arial, HELVETICA, sans-serif;
+  }
+
+  .main__title {
+    margin: 0 0 2.2vw 0;
+    font: bold 3.4vw/4.3vw 'pt_serif_bold', serif;
+  }
+
+  .main__subtitle {
+    margin: 0 0 2.4vw 0;
+    font: 500 1.2vw/1.1vw 'robotomedium', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__button {
+    font: 500 0.7vw/1.1vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    padding: 1vw 2.8vw;
+    border-radius: 0.4vw;
   }
 }
