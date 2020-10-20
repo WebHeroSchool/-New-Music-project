@@ -239,13 +239,14 @@ p {
   }
 
   .main__title {
-    margin: 0 0 2.2vw 0;
+    margin: 0 0 1.7vw 0;
     font: bold 3.4vw/4.3vw 'pt_serif_bold', serif;
   }
 
   .main__subtitle {
-    margin: 0 0 2.4vw 0;
-    font: 500 1.2vw/1.1vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    margin: 0 0 1.9vw 0;
+    font: 1.2vw/1.6vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    letter-spacing: 0.1vw;
   }
 
   .main__button {
@@ -253,4 +254,8 @@ p {
     padding: 1vw 2.8vw;
     border-radius: 0.4vw;
   }
+}
+
+@media (max-width: 1366px) {
+
 }
