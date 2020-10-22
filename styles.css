@@ -262,11 +262,11 @@ p {
 @media (max-width: 1366px) {
   .wrapper {
     width: 68vw;
- }
+  }
 
   .header {
     margin-bottom: 6.8vw;
- }
+  }
 
   .logo {
     margin-right: 30.5vw;
