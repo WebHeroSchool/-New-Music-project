@@ -130,7 +130,7 @@ body {
 
 .main__subtitle-text_line-break {
   white-space: nowrap;
-﻿}
+}
 
 .main__button {
   display: inline-block;
@@ -265,7 +265,7 @@ p {
  }
 
  .header {
-    margin-bottom: 10.8vw;
+    margin-bottom: 6.8vw;
  }
 
  .logo {
@@ -287,5 +287,24 @@ p {
     margin-right: 2.1vw;
     margin-bottom: 1.4vw;
     font: 500 1vw/1.2vw 'robotomedium', arial, HELVETICA, sans-serif;
+  }
+
+  .main {
+    padding: 0 40vw 7vw 0;
+  }
+
+  .main__title {
+    margin: 0 0 3.1vw 0;
+    font: bold 3.6vw/4.4vw 'pt_serif_bold', serif;
+  }
+
+  .main__subtitle {
+    margin: 0 0 3vw 0;
+    font: 500 1.3vw/1.6vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__button {
+    font: 500 0.8vw/1.2vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    border-radius: 0.4vw;
   }
  }
