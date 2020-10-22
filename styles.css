@@ -124,9 +124,13 @@ body {
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 500 18px/21px 'robotomedium', Arial, HELVETICA, sans-serif;
+  font: 500 18px/21px 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
   color: #000;
 }
+
+.main__subtitle-text_line-break {
+  white-space: nowrap;
+﻿}
 
 .main__button {
   display: inline-block;
@@ -245,8 +249,7 @@ p {
 
   .main__subtitle {
     margin: 0 0 1.9vw 0;
-    font: 1.2vw/1.6vw 'robotomedium', Arial, HELVETICA, sans-serif;
-    letter-spacing: 0.1vw;
+    font: 500 1.2vw/1.6vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
   }
 
   .main__button {
@@ -255,3 +258,34 @@ p {
     border-radius: 0.4vw;
   }
 }
+
+@media (max-width: 1366px) {
+  .wrapper {
+   width: 68vw;
+ }
+
+ .header {
+    margin-bottom: 10.8vw;
+ }
+
+ .logo {
+     margin-right: 30.5vw;
+     padding: 3.3vw 0 5vw 0;
+     padding-left: 3vw;
+     font: bold 2vw/1.5vw 'pt_serif', Arial, HELVETICA, sans-serif;
+  }
+
+  .logo__circle {
+    top: 4vw;
+  }
+
+  .logo__circle_color_blue {
+    top: 4.5vw;
+  }
+
+  .menu__item {
+    margin-right: 2.1vw;
+    margin-bottom: 1.4vw;
+    font: 500 1vw/1.2vw 'robotomedium', arial, HELVETICA, sans-serif;
+  }
+ }
