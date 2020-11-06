@@ -52,6 +52,10 @@ body {
   opacity: 0.7;
 }
 
+.header__burger {
+  display: none;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -110,7 +114,7 @@ body {
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 50px/65px 'pt_serif', Arial, HELVETICA, sans-serif;
+  font: bold 50px/65px 'pt_serif_bold', serif;
   color: #000;
 }
 
@@ -120,7 +124,7 @@ body {
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 500 18px/21px 'robotomedium', Arial, HELVETICA, sans-serif;
+  font: 500 18px/21px 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
   color: #000;
 }
 
@@ -140,4 +144,314 @@ body {
 
 p {
   font-family: 'robotomedium', Arial, sans-serif;
+}
+
+@media (max-width: 1920px) {
+  .body {
+    height: 56.3vw;
+  }
+
+  .wrapper {
+    width: 79.5vw;
+    height: 56.3vw;
+  }
+
+  .header {
+    margin-bottom: 7vw;
+  }
+
+  .logo {
+    margin-right: 49.6vw;
+    padding: 2.1vw 0 2vw 0;
+    padding-left: 2.2vw;
+    font: bold 1.36vw/1.5vw 'pt_serif', Arial, HELVETICA, sans-serif;
+  }
+
+  .menu__item {
+    margin-right: 1.3vw;
+    margin-top: 0.3vw;
+    font: 500 0.98vw/1.32vw 'robotomedium', arial, HELVETICA, sans-serif;
+  }
+
+  .main {
+    background-size: 40.1vw 34.3vw;
+    padding: 3.9vw 43vw 8vw 0;
+  }
+
+  .main__title {
+    margin: 0 0 1.7vw 0;
+    font: bold 3.4vw/4.6vw 'pt_serif_bold', serif;
+  }
+
+  .main__subtitle {
+    margin: 0 14vw 2.1vw 0;
+    letter-spacing: 0.1vw;
+    font: 500 0.92vw/1.4vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__button {
+    font: 500 0.91vw/1.1vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    padding: 0.98vw 1.59vw;
+    border-radius: 0.4vw;
+  }
+}
+
+@media (max-width: 1366px) {
+  .wrapper {
+    width: 68vw;
+  }
+
+  .header {
+    margin-bottom: 4.3vw;
+  }
+
+  .logo {
+    margin-right: 30vw;
+    padding: 3.3vw 0 5vw 0;
+    padding-left: 3.24vw;
+    font: bold 1.9vw/1.62vw 'pt_serif', Arial, HELVETICA, sans-serif;
+  }
+
+  .logo__circle {
+    top: 4vw;
+  }
+
+  .logo__circle_color_blue {
+    top: 4.5vw;
+  }
+
+  .menu {
+    margin: 2vw 0.3vw 2vw 0;
+  }
+
+  .menu__item {
+    margin-right: 2vw;
+    margin-bottom: 1.4vw;
+    font: 500 1vw/1.2vw 'robotomedium', arial, HELVETICA, sans-serif;
+  }
+
+  .main {
+    padding: 1vw 39.6vw 7vw 0;
+    background-size: 37.6vw 32.3vw;
+  }
+
+  .main__title {
+    margin: 0.4vw 0 3vw 0;
+    font: bold 3.66vw/4.76vw 'pt_serif_bold', serif;
+  }
+
+  .main__subtitle {
+    margin: 0 0 3.2vw 0;
+    font: 500 1.11vw/1.46vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__button {
+    font: 500 1.02vw/1.3vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    border-radius: 0.4vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .body {
+    height: 75vw;
+  }
+
+  .wrapper {
+    width: 91vw;
+    height: 75vw;
+  }
+
+  .header {
+    margin-bottom: 8.8vw;
+  }
+
+  .logo {
+    margin-right: 41.8vw;
+    padding: 4.5vw 0 4vw 0;
+    padding-left: 4.4vw;
+    font: bold 2.5vw/1.9vw 'pt_serif', Arial, HELVETICA, sans-serif;
+  }
+
+  .logo__circle {
+    top: 5.3vw;
+  }
+
+  .logo__circle_color_blue {
+    top: 6vw;
+  }
+
+  .menu__item {
+    margin-right: 2.8vw;
+    margin-top: 2.3vw;
+    font: 500 1.28vw/2vw 'robotomedium', arial, HELVETICA, sans-serif;
+  }
+
+  .main {
+    padding: 1vw 53vw 8vw 0;
+    background-size: 50.26vw 42.8vw;
+  }
+
+  .main__title {
+    margin: 0.7vw 0 4.3vw 0;
+    font: bold 4.9vw/6.3vw 'pt_serif_bold', serif;
+  }
+
+  .main__subtitle {
+    margin: 0 0 4.2vw 0;
+    font: 500 1.56vw/1.95vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__button {
+    font: 500 1.45vw/2.4vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    border-radius: 0.4vw;
+  }
+}
+
+@media (max-width: 764px) {
+  .body {
+    height: 149.2vw;
+  }
+
+  .wrapper {
+    width: 86vw;
+    height: 149.2vw;
+  }
+
+  .header {
+    margin-bottom: 4vw;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 0;
+    margin-right: 68vw;
+    padding: 6vw 0 8vw 0;
+    padding-left: 9vw;
+  }
+
+  .logo__circle {
+    top: 8vw;
+    width: 7vw;
+    height: 7vw;
+  }
+
+  .logo__circle_color_blue {
+    top: 6vw;
+    transform: translate(20%);
+  }
+
+  .header__burger {
+    display: block;
+    position: absolute;
+    top: 3vw;
+    left: 86vw;
+    width: 6.6vw;
+    height: 4vw;
+  }
+
+  .header__burger span,
+  .header__burger::before,
+  .header__burger::after {
+    position: absolute;
+    background-color: #0056ec;
+    left: 0;
+    width: 100%;
+    height: 0.8vw;
+    top: 3vw;
+  }
+
+  .header__burger::before {
+    content: '';
+    top: 4.8vw;
+  }
+
+  .header__burger::after {
+    content: '';
+    top: 6.7vw;
+  }
+
+  .main {
+    text-align: center;
+    padding: 58vw 0 0;
+    background-size: 74vw 64vw;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin: 8vw 3.5vw 4vw 5vw;
+    font: bold 7vw/9vw 'pt_serif', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__subtitle {
+    margin: 8vw 11vw 7.1vw 12vw;
+    font: bold 4vw/4.5vw 'robotomedium', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__button {
+    font: 500 4vw/8vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    border-radius: 0.4vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .body {
+    height: 179vw;
+  }
+
+  .wrapper {
+    width: 87vw;
+    height: 179vw;
+  }
+
+  .header {
+    margin-bottom: 7.2vw;
+  }
+
+  .logo {
+    font-size: 0;
+    margin-right: 68vw;
+    padding: 6vw 1vw 8vw 0;
+    padding-left: 9vw;
+  }
+
+  .logo__circle {
+    top: 10vw;
+  }
+
+  .logo__circle_color_blue {
+    top: 8.4vw;
+    margin-left: -1.2vw;
+  }
+
+  .header__burger {
+    display: block;
+    position: absolute;
+    top: 5.5vw;
+    left: 87vw;
+    width: 6.5vw;
+  }
+
+  .main {
+    padding: 72vw 0 0;
+    background-size: 74.3vw 64.1vw;
+  }
+
+  .main__title {
+    margin: -2.2vw 4vw 9vw 5.1vw;
+    font: bold 8.62vw/10.4vw 'pt_serif', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__subtitle {
+    margin: 0 11vw 7.1vw 12vw;
+    font: 500 4.1vw/5vw 'robotomedium', Arial, HELVETICA, sans-serif;
+  }
+
+  .main__button {
+    font: 500 4vw/9.8vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    padding: 1vw 4vw;
+    border-radius: 0.4vw;
+  }
 }
