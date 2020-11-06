@@ -308,7 +308,6 @@ p {
 }
 
 @media (max-width: 764px) {
-
   .body {
     height: 149.2vw;
   }
@@ -318,9 +317,9 @@ p {
     height: 149.2vw;
   }
 
-.header {
-  margin-bottom: 4vw;
-}
+  .header {
+    margin-bottom: 4vw;
+  }
 
   .menu {
     display: none;
@@ -453,6 +452,6 @@ p {
   .main__button {
     font: 500 4vw/9.8vw 'robotomedium', Arial, HELVETICA, sans-serif;
     padding: 1vw 4vw;
-    border-radius: 0.4vw
+    border-radius: 0.4vw;
   }
 }
