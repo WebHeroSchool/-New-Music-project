@@ -157,41 +157,41 @@ p {
   }
 
   .header {
-    margin-bottom: 6.7vw;
+    margin-bottom: 7vw;
   }
 
   .logo {
     margin-right: 49.6vw;
     padding: 2.1vw 0 2vw 0;
     padding-left: 2.2vw;
-    font: bold 1.4vw/1.6vw 'pt_serif', Arial, HELVETICA, sans-serif;
+    font: bold 1.36vw/1.5vw 'pt_serif', Arial, HELVETICA, sans-serif;
   }
 
   .menu__item {
     margin-right: 1.3vw;
     margin-top: 0.3vw;
-    font: 500 1vw/1vw 'robotomedium', arial, HELVETICA, sans-serif;
+    font: 500 0.98vw/1.32vw 'robotomedium', arial, HELVETICA, sans-serif;
   }
 
   .main {
-    background-size: 40vw 30vw;
-    padding: 0 40vw 10vw 0;
+    background-size: 40.1vw 34.3vw;
+    padding: 3.9vw 43vw 8vw 0;
   }
 
   .main__title {
-    margin: 11vw 0 1.7vw 0;
-    font: bold 3.4vw/4.5vw 'pt_serif_bold', serif;
+    margin: 0 0 1.7vw 0;
+    font: bold 3.4vw/4.6vw 'pt_serif_bold', serif;
   }
 
   .main__subtitle {
-    margin: 0 16vw 1.9vw 0;
+    margin: 0 14vw 2.1vw 0;
     letter-spacing: 0.1vw;
-    font: 500 0.9vw/1.6vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
+    font: 500 0.92vw/1.4vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
   }
 
   .main__button {
-    font: 500 0.7vw/1.1vw 'robotomedium', Arial, HELVETICA, sans-serif;
-    padding: 1vw 2.8vw;
+    font: 500 0.91vw/1.1vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    padding: 0.98vw 1.59vw;
     border-radius: 0.4vw;
   }
 }
@@ -202,14 +202,14 @@ p {
   }
 
   .header {
-    margin-bottom: 5vw;
+    margin-bottom: 4.3vw;
   }
 
   .logo {
-    margin-right: 30.5vw;
+    margin-right: 30vw;
     padding: 3.3vw 0 5vw 0;
-    padding-left: 3vw;
-    font: bold 2vw/1.5vw 'pt_serif', Arial, HELVETICA, sans-serif;
+    padding-left: 3.24vw;
+    font: bold 1.9vw/1.62vw 'pt_serif', Arial, HELVETICA, sans-serif;
   }
 
   .logo__circle {
@@ -220,29 +220,33 @@ p {
     top: 4.5vw;
   }
 
+  .menu {
+    margin: 2vw 0.3vw 2vw 0;
+  }
+
   .menu__item {
-    margin-right: 2.1vw;
+    margin-right: 2vw;
     margin-bottom: 1.4vw;
     font: 500 1vw/1.2vw 'robotomedium', arial, HELVETICA, sans-serif;
   }
 
   .main {
-    padding: 0 40vw 7vw 0;
-    background-size: 37.5vw 30.4vw;
+    padding: 1vw 39.6vw 7vw 0;
+    background-size: 37.6vw 32.3vw;
   }
 
   .main__title {
-    margin: 6vw 0 3.1vw 0;
-    font: bold 3.6vw/4.7vw 'pt_serif_bold', serif;
+    margin: 0.4vw 0 3vw 0;
+    font: bold 3.66vw/4.76vw 'pt_serif_bold', serif;
   }
 
   .main__subtitle {
-    margin: 0 0 3vw 0;
-    font: 500 1.1vw/1.5vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
+    margin: 0 0 3.2vw 0;
+    font: 500 1.11vw/1.46vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
   }
 
   .main__button {
-    font: 500 0.8vw/1.2vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    font: 500 1.02vw/1.3vw 'robotomedium', Arial, HELVETICA, sans-serif;
     border-radius: 0.4vw;
   }
 }
@@ -258,11 +262,11 @@ p {
   }
 
   .header {
-    margin-bottom: 8.5vw;
+    margin-bottom: 8.8vw;
   }
 
   .logo {
-    margin-right: 42vw;
+    margin-right: 41.8vw;
     padding: 4.5vw 0 4vw 0;
     padding-left: 4.4vw;
     font: bold 2.5vw/1.9vw 'pt_serif', Arial, HELVETICA, sans-serif;
@@ -279,26 +283,26 @@ p {
   .menu__item {
     margin-right: 2.8vw;
     margin-top: 2.3vw;
-    font: 500 1.3vw/2vw 'robotomedium', arial, HELVETICA, sans-serif;
+    font: 500 1.28vw/2vw 'robotomedium', arial, HELVETICA, sans-serif;
   }
 
   .main {
-    padding: 0 53vw 10vw 0;
-    background-size: 50vw 40.5vw;
+    padding: 1vw 53vw 8vw 0;
+    background-size: 50.26vw 42.8vw;
   }
 
   .main__title {
-    margin: 10.6vw 0 4.2vw 0;
+    margin: 0.7vw 0 4.3vw 0;
     font: bold 4.9vw/6.3vw 'pt_serif_bold', serif;
   }
 
   .main__subtitle {
-    margin: 0 0 4vw 0;
-    font: 500 1.56vw/2vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
+    margin: 0 0 4.2vw 0;
+    font: 500 1.56vw/1.95vw 'roboto-lightitalic-demo', Arial, HELVETICA, sans-serif;
   }
 
   .main__button {
-    font: 500 1.2vw/2.3vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    font: 500 1.45vw/2.4vw 'robotomedium', Arial, HELVETICA, sans-serif;
     border-radius: 0.4vw;
   }
 }
@@ -383,8 +387,8 @@ p {
   }
 
   .main__subtitle {
-    margin: 0 11vw 7.1vw 12vw;
-    font: 500 4vw/5vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    margin: 8vw 11vw 7.1vw 12vw;
+    font: bold 4vw/4.5vw 'robotomedium', Arial, HELVETICA, sans-serif;
   }
 
   .main__button {
@@ -404,7 +408,7 @@ p {
   }
 
   .header {
-    margin-bottom: 1vw;
+    margin-bottom: 7.2vw;
   }
 
   .logo {
@@ -433,22 +437,22 @@ p {
 
   .main {
     padding: 72vw 0 0;
-    background-size: 74vw 71.4vw;
+    background-size: 74.3vw 64.1vw;
   }
 
   .main__title {
-    margin: 4vw 4vw 9vw 5.1vw;
-    letter-spacing: 0.1vw;
-    font: bold 8.4vw/10.4vw 'pt_serif', Arial, HELVETICA, sans-serif;
+    margin: -2.2vw 4vw 9vw 5.1vw;
+    font: bold 8.62vw/10.4vw 'pt_serif', Arial, HELVETICA, sans-serif;
   }
 
   .main__subtitle {
     margin: 0 11vw 7.1vw 12vw;
-    font: 500 4vw/5vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    font: 500 4.1vw/5vw 'robotomedium', Arial, HELVETICA, sans-serif;
   }
 
   .main__button {
-    font: 500 4.2vw/9.6vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    font: 500 4vw/9.8vw 'robotomedium', Arial, HELVETICA, sans-serif;
+    padding: 1vw 4vw;
     border-radius: 0.4vw
   }
 }
